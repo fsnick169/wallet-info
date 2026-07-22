@@ -14,13 +14,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://apps-rpc.polkadot.io",
-                "name": "Public node",
-                "features": [
-                    "noTls12"
-                ]
-            },
-            {
                 "url": "wss://rpc-polkadot-1.novasama-tech.org",
                 "name": "Novasama node"
             },
@@ -35,6 +28,13 @@
             {
                 "url": "wss://polkadot.dotters.network",
                 "name": "IBP2 node"
+            },
+            {
+                "url": "wss://apps-rpc.polkadot.io",
+                "name": "Public node",
+                "features": [
+                    "noTls12"
+                ]
             },
             {
                 "url": "wss://dot-rpc.stakeworld.io",
@@ -67,10 +67,6 @@
             }
         ],
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
-        "types": {
-            "url": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/types/polkadot.json",
-            "overridesCommon": true
-        },
         "addressPrefix": 0,
         "externalApi": {
             "staking": [
