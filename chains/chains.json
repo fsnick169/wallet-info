@@ -257,5 +257,162 @@
             "timelineChain": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
             "defaultBlockTime": 2000
         }
+    },
+    {
+        "chainId": "eip155:97",
+        "name": "BNB Smart Chain Testnet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "BNB",
+                "priceId": "binancecoin",
+                "type": "evmNative",
+                "icon": "BNB.svg",
+                "precision": 18
+            }
+        ],
+        "nodeSelectionStrategy": "uniform",
+        "nodes": [
+            {
+                "url": "https://data-seed-prebsc-1-s1.binance.org:8545",
+                "name": "BSC testnet node 1"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s1.binance.org:8545",
+                "name": "BSC testnet node 2"
+            },
+            {
+                "url": "https://data-seed-prebsc-1-s2.binance.org:8545",
+                "name": "BSC testnet node 1s2"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
+                "name": "BSC testnet node 2s2"
+            },
+            {
+                "url": "https://data-seed-prebsc-1-s3.binance.org:8545",
+                "name": "BSC testnet node 1s3"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s3.binance.org:8545",
+                "name": "BSC testnet node 2s3"
+            },
+            {
+                "url": "https://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
+                "name": "Getblock http testnet node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
+                "name": "Getblock wss testnet node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/62f28655-8038-43cc-abca-7d1fb47d7d97/testnet/",
+                "name": "GetBlock wss testnet node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Testnet BscScan",
+                "extrinsic": "https://testnet.bscscan.com/tx/{hash}",
+                "account": "https://testnet.bscscan.com/address/{address}"
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://api-testnet.bscscan.com/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/BSCTestnet.svg",
+        "addressPrefix": 97,
+        "options": [
+            "testnet",
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ]
+    },
+    {
+        "chainId": "eip155:56",
+        "name": "BNB Smart Chain",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "BNB",
+                "priceId": "binancecoin",
+                "type": "evmNative",
+                "icon": "BNB.svg",
+                "precision": 18
+            }
+        ],
+        "nodeSelectionStrategy": "uniform",
+        "nodes": [
+            {
+                "url": "https://bsc-dataseed.binance.org",
+                "name": "BSC node 1"
+            },
+            {
+                "url": "https://bsc-dataseed1.defibit.io",
+                "name": "BSC node 2"
+            },
+            {
+                "url": "https://bsc-dataseed1.ninicoin.io",
+                "name": "BSC node 3"
+            },
+            {
+                "url": "https://bsc.nodereal.io",
+                "name": "BSC node 4"
+            },
+            {
+                "url": "https://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/mainnet/",
+                "name": "GetBlock http node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/mainnet/",
+                "name": "GetBlock wss node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/62f28655-8038-43cc-abca-7d1fb47d7d97/mainnet/",
+                "name": "GetBlock wss node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "BscScan",
+                "extrinsic": "https://bscscan.com/tx/{hash}",
+                "account": "https://bscscan.com/address/{address}"
+            },
+            {
+                "name": "Bitquery",
+                "extrinsic": "https://explorer.bitquery.io/bsc/tx/{hash}",
+                "account": "https://explorer.bitquery.io/bsc/address/{address}"
+            },
+            {
+                "name": "BSCTrace",
+                "extrinsic": "https://bsctrace.com/tx/{hash}",
+                "account": "https://bsctrace.com/address/{address}"
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://api.bscscan.com/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/BSC.svg",
+        "addressPrefix": 56,
+        "options": [
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ]
     }
 ]
