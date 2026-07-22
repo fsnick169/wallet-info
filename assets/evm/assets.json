@@ -1,5 +1,18 @@
 [
     {
+        "symbol": "USDT",
+        "precision": 18,
+        "name": "Tether USD",
+        "priceId": "tether",
+        "icon": "USDT.svg",
+        "instances": [
+            {
+                "chainId": "eip155:56",
+                "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
+            }
+        ]
+    },
+    {
         "symbol": "BUSD",
         "precision": 18,
         "name": "Binance-Peg BUSD Token",
