@@ -1,87 +1,5 @@
 [
     {
-        "chainId": "eip155:97",
-        "name": "BNB Smart Chain Testnet",
-        "assets": [
-            {
-                "assetId": 0,
-                "symbol": "BNB",
-                "priceId": "binancecoin",
-                "type": "evmNative",
-                "icon": "BNB.svg",
-                "precision": 18
-            }
-        ],
-        "nodeSelectionStrategy": "uniform",
-        "nodes": [
-            {
-                "url": "https://data-seed-prebsc-1-s1.binance.org:8545",
-                "name": "BSC testnet node 1"
-            },
-            {
-                "url": "https://data-seed-prebsc-2-s1.binance.org:8545",
-                "name": "BSC testnet node 2"
-            },
-            {
-                "url": "https://data-seed-prebsc-1-s2.binance.org:8545",
-                "name": "BSC testnet node 1s2"
-            },
-            {
-                "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
-                "name": "BSC testnet node 2s2"
-            },
-            {
-                "url": "https://data-seed-prebsc-1-s3.binance.org:8545",
-                "name": "BSC testnet node 1s3"
-            },
-            {
-                "url": "https://data-seed-prebsc-2-s3.binance.org:8545",
-                "name": "BSC testnet node 2s3"
-            },
-            {
-                "url": "https://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
-                "name": "Getblock http testnet node"
-            },
-            {
-                "url": "wss://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
-                "name": "Getblock wss testnet node"
-            },
-            {
-                "url": "wss://bsc.getblock.io/62f28655-8038-43cc-abca-7d1fb47d7d97/testnet/",
-                "name": "GetBlock wss testnet node"
-            }
-        ],
-        "explorers": [
-            {
-                "name": "Testnet BscScan",
-                "extrinsic": "https://testnet.bscscan.com/tx/{hash}",
-                "account": "https://testnet.bscscan.com/address/{address}"
-            }
-        ],
-        "externalApi": {
-            "history": [
-                {
-                    "type": "etherscan",
-                    "url": "https://api-testnet.bscscan.com/api",
-                    "parameters": {
-                        "assetType": "evm"
-                    }
-                }
-            ]
-        },
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/BSCTestnet.svg",
-        "addressPrefix": 97,
-        "options": [
-            "governance",
-            "testnet",
-            "ethereumBased",
-            "noSubstrateRuntime"
-        ],
-        "additional": {
-            "themeColor": "#E6007A"
-        }
-    },
-    {
         "chainId": "eip155:56",
         "name": "BNB Smart Chain",
         "assets": [
@@ -156,6 +74,88 @@
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/BSC.svg",
         "addressPrefix": 56,
         "options": [
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ],
+        "additional": {
+            "themeColor": "#E6007A"
+        }
+    },
+    {
+        "chainId": "eip155:97",
+        "name": "BNB Smart Chain Testnet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "BNB",
+                "priceId": "binancecoin",
+                "type": "evmNative",
+                "icon": "BNB.svg",
+                "precision": 18
+            }
+        ],
+        "nodeSelectionStrategy": "uniform",
+        "nodes": [
+            {
+                "url": "https://data-seed-prebsc-1-s1.binance.org:8545",
+                "name": "BSC testnet node 1"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s1.binance.org:8545",
+                "name": "BSC testnet node 2"
+            },
+            {
+                "url": "https://data-seed-prebsc-1-s2.binance.org:8545",
+                "name": "BSC testnet node 1s2"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
+                "name": "BSC testnet node 2s2"
+            },
+            {
+                "url": "https://data-seed-prebsc-1-s3.binance.org:8545",
+                "name": "BSC testnet node 1s3"
+            },
+            {
+                "url": "https://data-seed-prebsc-2-s3.binance.org:8545",
+                "name": "BSC testnet node 2s3"
+            },
+            {
+                "url": "https://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
+                "name": "Getblock http testnet node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/7239ce92-e8ac-4ada-8685-6c0a083b8254/testnet/",
+                "name": "Getblock wss testnet node"
+            },
+            {
+                "url": "wss://bsc.getblock.io/62f28655-8038-43cc-abca-7d1fb47d7d97/testnet/",
+                "name": "GetBlock wss testnet node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Testnet BscScan",
+                "extrinsic": "https://testnet.bscscan.com/tx/{hash}",
+                "account": "https://testnet.bscscan.com/address/{address}"
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://api-testnet.bscscan.com/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/BSCTestnet.svg",
+        "addressPrefix": 97,
+        "options": [
+            "governance",
+            "testnet",
             "ethereumBased",
             "noSubstrateRuntime"
         ],
