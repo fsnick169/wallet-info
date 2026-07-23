@@ -76,7 +76,10 @@
             "testnet",
             "ethereumBased",
             "noSubstrateRuntime"
-        ]
+        ],
+        "additional": {
+            "themeColor": "#E6007A"
+        }
     },
     {
         "chainId": "eip155:56",
@@ -155,6 +158,9 @@
         "options": [
             "ethereumBased",
             "noSubstrateRuntime"
-        ]
+        ],
+        "additional": {
+            "themeColor": "#E6007A"
+        }
     }
 ]
