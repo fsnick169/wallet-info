@@ -1,263 +1,261 @@
 [
-    [
-        {
-            "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-            "name": "Polkadot Relay",
-            "assets": [
-                {
-                    "assetId": 0,
-                    "symbol": "DOT",
-                    "precision": 10,
-                    "name": "Polkadot",
-                    "priceId": "polkadot",
-                    "icon": "DOT.svg"
-                }
-            ],
-            "nodes": [
-                {
-                    "url": "wss://rpc-polkadot-1.novasama-tech.org",
-                    "name": "Novasama node"
-                },
-                {
-                    "url": "wss://rpc-polkadot-2.novasama-tech.org",
-                    "name": "Novasama node"
-                },
-                {
-                    "url": "wss://rpc.ibp.network/polkadot",
-                    "name": "IBP1 node"
-                },
-                {
-                    "url": "wss://polkadot.dotters.network",
-                    "name": "IBP2 node"
-                },
-                {
-                    "url": "wss://apps-rpc.polkadot.io",
-                    "name": "Public node",
-                    "features": [
-                        "noTls12"
-                    ]
-                },
-                {
-                    "url": "wss://dot-rpc.stakeworld.io",
-                    "name": "Stakeworld node"
-                },
-                {
-                    "url": "wss://polkadot.public.curie.radiumblock.co/ws",
-                    "name": "Radium node"
-                },
-                {
-                    "url": "wss://1rpc.io/dot",
-                    "name": "Automata 1RPC node"
-                },
-                {
-                    "url": "wss://rpc-polkadot.luckyfriday.io",
-                    "name": "LuckyFriday node"
-                }
-            ],
-            "explorers": [
-                {
-                    "name": "Subscan",
-                    "extrinsic": "https://polkadot.subscan.io/extrinsic/{hash}",
-                    "account": "https://polkadot.subscan.io/account/{address}"
-                },
-                {
-                    "name": "Statescan",
-                    "account": "https://polkadot.statescan.io/#/accounts/{address}",
-                    "extrinsic": "https://polkadot.statescan.io/#/extrinsics/{hash}",
-                    "event": "https://polkadot.statescan.io/#/events/{event}"
-                }
-            ],
-            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
-            "addressPrefix": 0,
-            "externalApi": {
-                "staking": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
-                    }
-                ],
-                "staking-rewards": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
-                    }
-                ],
-                "history": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
-                    }
-                ],
-                "governance": [
-                    {
-                        "type": "subsquare",
-                        "url": "https://polkadot-api.subsquare.io"
-                    }
-                ],
-                "governance-delegations": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-governance-polkadot-stg.novasama-tech.org"
-                    }
-                ],
-                "referendum-summary": [
-                    {
-                        "type": "novasama",
-                        "url": "https://opengov-backend-dev.novasama-tech.org/api/v1/referendum-summaries/list"
-                    }
+    {
+        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot Relay",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "DOT",
+                "precision": 10,
+                "name": "Polkadot",
+                "priceId": "polkadot",
+                "icon": "DOT.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc-polkadot-1.novasama-tech.org",
+                "name": "Novasama node"
+            },
+            {
+                "url": "wss://rpc-polkadot-2.novasama-tech.org",
+                "name": "Novasama node"
+            },
+            {
+                "url": "wss://rpc.ibp.network/polkadot",
+                "name": "IBP1 node"
+            },
+            {
+                "url": "wss://polkadot.dotters.network",
+                "name": "IBP2 node"
+            },
+            {
+                "url": "wss://apps-rpc.polkadot.io",
+                "name": "Public node",
+                "features": [
+                    "noTls12"
                 ]
             },
-            "options": [
-                "proxy",
-                "fullSyncByDefault",
-                "pushSupport",
-                "multisig"
-            ],
-            "additional": {
-                "themeColor": "#E6007A",
-                "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-dot-staking",
-                "stakingMaxElectingVoters": 22500,
-                "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
-                "feeViaRuntimeCall": true,
-                "supportsGenericLedgerApp": true
+            {
+                "url": "wss://dot-rpc.stakeworld.io",
+                "name": "Stakeworld node"
+            },
+            {
+                "url": "wss://polkadot.public.curie.radiumblock.co/ws",
+                "name": "Radium node"
+            },
+            {
+                "url": "wss://1rpc.io/dot",
+                "name": "Automata 1RPC node"
+            },
+            {
+                "url": "wss://rpc-polkadot.luckyfriday.io",
+                "name": "LuckyFriday node"
             }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://polkadot.subscan.io/extrinsic/{hash}",
+                "account": "https://polkadot.subscan.io/account/{address}"
+            },
+            {
+                "name": "Statescan",
+                "account": "https://polkadot.statescan.io/#/accounts/{address}",
+                "extrinsic": "https://polkadot.statescan.io/#/extrinsics/{hash}",
+                "event": "https://polkadot.statescan.io/#/events/{event}"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
+        "addressPrefix": 0,
+        "externalApi": {
+            "staking": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
+                }
+            ],
+            "staking-rewards": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
+                }
+            ],
+            "history": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
+                }
+            ],
+            "governance": [
+                {
+                    "type": "subsquare",
+                    "url": "https://polkadot-api.subsquare.io"
+                }
+            ],
+            "governance-delegations": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-governance-polkadot-stg.novasama-tech.org"
+                }
+            ],
+            "referendum-summary": [
+                {
+                    "type": "novasama",
+                    "url": "https://opengov-backend-dev.novasama-tech.org/api/v1/referendum-summaries/list"
+                }
+            ]
         },
-        {
-            "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-            "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-            "name": "Polkadot Asset Hub",
-            "assets": [
-                {
-                    "assetId": 0,
-                    "symbol": "DOT",
-                    "precision": 10,
-                    "name": "Polkadot",
-                    "priceId": "polkadot",
-                    "icon": "DOT.svg",
-                    "staking": [
-                        "relaychain",
-                        "nomination-pools"
-                    ],
-                    "buyProviders": {
-                        "transak": {
-                            "network": "ASSETHUB"
-                        },
-                        "mercuryo": {},
-                        "banxa": {
-                            "coinType": "DOT",
-                            "blockchain": "DOT"
-                        }
-                    },
-                    "sellProviders": {
-                        "transak": {
-                            "network": "ASSETHUB"
-                        },
-                        "mercuryo": {}
-                    }
-                }
-            ],
-            "nodes": [
-                {
-                    "url": "wss://rpc-assethub.novasama-tech.org",
-                    "name": "Novasama node"
-                },
-                {
-                    "url": "wss://asset-hub-polkadot-rpc.n.dwellir.com",
-                    "name": "Dwellir node"
-                },
-                {
-                    "url": "wss://sys.ibp.network/asset-hub-polkadot",
-                    "name": "IBP1 node"
-                },
-                {
-                    "url": "wss://asset-hub-polkadot.dotters.network",
-                    "name": "IBP2 node"
-                }
-            ],
-            "explorers": [
-                {
-                    "name": "Subscan",
-                    "account": "https://assethub-polkadot.subscan.io/account/{address}",
-                    "extrinsic": "https://assethub-polkadot.subscan.io/extrinsic/{hash}"
-                },
-                {
-                    "name": "Statescan",
-                    "account": "https://assethub-polkadot.statescan.io/#/accounts/{address}",
-                    "extrinsic": "https://assethub-polkadot.statescan.io/#/extrinsics/{hash}",
-                    "event": "https://assethub-polkadot.statescan.io/#/events/{event}"
-                }
-            ],
-            "externalApi": {
-                "history": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
-                    }
-                ],
-                "staking-rewards": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
-                    },
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
-                    }
-                ],
-                "staking": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
-                    }
-                ],
-                "governance": [
-                    {
-                        "type": "subsquare",
-                        "url": "https://polkadot-api.subsquare.io"
-                    }
-                ],
-                "governance-delegations": [
-                    {
-                        "type": "subquery",
-                        "url": "https://subquery-governance-polkadot-ah-prod.novasama-tech.org"
-                    }
-                ],
-                "referendum-summary": [
-                    {
-                        "type": "novasama",
-                        "url": "https://opengov-backend.novasama-tech.org/api/v1/referendum-summaries/list"
-                    }
-                ],
-                "crowdloans": [
-                    {
-                        "type": "github",
-                        "url": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/crowdloan/polkadot-dev.json"
-                    }
-                ]
-            },
-            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
-            "addressPrefix": 0,
-            "options": [
-                "crowdloans",
-                "swap-hub",
-                "assethub-fees",
-                "proxy",
-                "multisig",
-                "governance",
-                "pushSupport",
-                "fullSyncByDefault"
-            ],
-            "additional": {
-                "themeColor": "#E6007A",
-                "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-dot-staking",
-                "stakingMaxElectingVoters": 22500,
-                "relaychainAsNative": true,
-                "feeViaRuntimeCall": true,
-                "supportsGenericLedgerApp": true,
-                "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
-                "timelineChain": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "defaultBlockTime": 2000
-            }
+        "options": [
+            "proxy",
+            "fullSyncByDefault",
+            "pushSupport",
+            "multisig"
+        ],
+        "additional": {
+            "themeColor": "#E6007A",
+            "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-dot-staking",
+            "stakingMaxElectingVoters": 22500,
+            "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+            "feeViaRuntimeCall": true,
+            "supportsGenericLedgerApp": true
         }
-    ]
+    },
+    {
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot Asset Hub",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "DOT",
+                "precision": 10,
+                "name": "Polkadot",
+                "priceId": "polkadot",
+                "icon": "DOT.svg",
+                "staking": [
+                    "relaychain",
+                    "nomination-pools"
+                ],
+                "buyProviders": {
+                    "transak": {
+                        "network": "ASSETHUB"
+                    },
+                    "mercuryo": {},
+                    "banxa": {
+                        "coinType": "DOT",
+                        "blockchain": "DOT"
+                    }
+                },
+                "sellProviders": {
+                    "transak": {
+                        "network": "ASSETHUB"
+                    },
+                    "mercuryo": {}
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc-assethub.novasama-tech.org",
+                "name": "Novasama node"
+            },
+            {
+                "url": "wss://asset-hub-polkadot-rpc.n.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
+                "url": "wss://sys.ibp.network/asset-hub-polkadot",
+                "name": "IBP1 node"
+            },
+            {
+                "url": "wss://asset-hub-polkadot.dotters.network",
+                "name": "IBP2 node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "account": "https://assethub-polkadot.subscan.io/account/{address}",
+                "extrinsic": "https://assethub-polkadot.subscan.io/extrinsic/{hash}"
+            },
+            {
+                "name": "Statescan",
+                "account": "https://assethub-polkadot.statescan.io/#/accounts/{address}",
+                "extrinsic": "https://assethub-polkadot.statescan.io/#/extrinsics/{hash}",
+                "event": "https://assethub-polkadot.statescan.io/#/events/{event}"
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
+                }
+            ],
+            "staking-rewards": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-prod.novasama-tech.org"
+                },
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
+                }
+            ],
+            "staking": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-history-polkadot-ah-prod.novasama-tech.org"
+                }
+            ],
+            "governance": [
+                {
+                    "type": "subsquare",
+                    "url": "https://polkadot-api.subsquare.io"
+                }
+            ],
+            "governance-delegations": [
+                {
+                    "type": "subquery",
+                    "url": "https://subquery-governance-polkadot-ah-prod.novasama-tech.org"
+                }
+            ],
+            "referendum-summary": [
+                {
+                    "type": "novasama",
+                    "url": "https://opengov-backend.novasama-tech.org/api/v1/referendum-summaries/list"
+                }
+            ],
+            "crowdloans": [
+                {
+                    "type": "github",
+                    "url": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/crowdloan/polkadot-dev.json"
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
+        "addressPrefix": 0,
+        "options": [
+            "crowdloans",
+            "swap-hub",
+            "assethub-fees",
+            "proxy",
+            "multisig",
+            "governance",
+            "pushSupport",
+            "fullSyncByDefault"
+        ],
+        "additional": {
+            "themeColor": "#E6007A",
+            "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-dot-staking",
+            "stakingMaxElectingVoters": 22500,
+            "relaychainAsNative": true,
+            "feeViaRuntimeCall": true,
+            "supportsGenericLedgerApp": true,
+            "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+            "timelineChain": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+            "defaultBlockTime": 2000
+        }
+    }
 ]
