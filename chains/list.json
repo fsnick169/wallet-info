@@ -1,0 +1,112 @@
+[
+    {
+        "slug": "polkadot",
+        "name": "Polkadot",
+        "isTestnet": false,
+        "chainStatus": "ACTIVE",
+        "ordinal": 1,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/polkadot_63b5dd41ef.png",
+        "providers": {
+            "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
+            "Stakeworld": "wss://dot-rpc.stakeworld.io",
+            "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
+            "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
+            "Light Client": "light://substrate-connect/polkadot",
+            "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+            "Allnodes": "wss://polkadot-rpc.publicnode.com",
+            "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
+            "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
+            "IBP2": "wss://polkadot.dotters.network"
+        },
+        "evmInfo": null,
+        "substrateInfo": {
+            "relaySlug": null,
+            "paraId": null,
+            "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+            "addressPrefix": 0,
+            "chainType": "RELAYCHAIN",
+            "crowdloanUrl": null,
+            "blockExplorer": "https://polkadot.subscan.io/",
+            "existentialDeposit": "10000000000",
+            "symbol": "DOT",
+            "decimals": 10,
+            "hasNativeNft": false,
+            "supportStaking": true,
+            "supportSmartContract": null,
+            "crowdloanParaId": null,
+            "supportProxy": true,
+            "supportMultisig": null,
+            "crowdloanFunds": []
+        },
+        "extraInfo": {
+            "subscanSlug": "polkadot",
+            "chainBalanceSlug": "polkadot"
+        },
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    },
+    {
+        "slug": "binance",
+        "name": "BNB Chain",
+        "isTestnet": false,
+        "chainStatus": "ACTIVE",
+        "ordinal": 2,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/bnb_chain_002b604f9d.png",
+        "providers": {
+            "Binance": "https://bsc-dataseed.binance.org/",
+            "Defibit": "https://bsc-dataseed1.defibit.io/",
+            "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
+            "Nodereal": "https://bsc.nodereal.io/"
+        },
+        "evmInfo": {
+            "evmChainId": 56,
+            "blockExplorer": "https://bscscan.com",
+            "existentialDeposit": "0",
+            "symbol": "BNB",
+            "decimals": 18,
+            "supportSmartContract": [
+                "ERC20",
+                "ERC721"
+            ],
+            "abiExplorer": null
+        },
+        "substrateInfo": null,
+        "extraInfo": {
+            "subscanSlug": null,
+            "chainBalanceSlug": "bsc"
+        },
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    },
+    {
+        "slug": "binance_test",
+        "name": "Binance Smart Chain (Testnet)",
+        "isTestnet": true,
+        "chainStatus": "ACTIVE",
+        "ordinal": 38,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/bnb_d6b4677e85.png",
+        "providers": {
+            "Binance": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+            "Binance2": "https://data-seed-prebsc-2-s1.binance.org:8545/"
+        },
+        "evmInfo": {
+            "evmChainId": 97,
+            "blockExplorer": "https://testnet.bscscan.com",
+            "existentialDeposit": "0",
+            "symbol": "tBNB",
+            "decimals": 18,
+            "supportSmartContract": [
+                "ERC20",
+                "ERC721"
+            ],
+            "abiExplorer": null
+        },
+        "substrateInfo": null,
+        "extraInfo": null,
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    }
+]

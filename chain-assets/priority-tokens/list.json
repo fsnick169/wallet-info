@@ -1,0 +1,10 @@
+{
+    "tokenGroup": {
+        "DOT-Polkadot": 1,
+        "BNB-Binance": 2
+    },
+    "token": {
+        "polkadot-NATIVE-DOT": 1,
+        "binance-NATIVE-BNB": 2
+    }
+}
