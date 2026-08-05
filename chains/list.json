@@ -1,45 +1,58 @@
-{
-    "portaldot": {
-        "slug": "portaldot",
-        "name": "Portaldot",
+[
+    {
+        "slug": "polkadot",
+        "name": "Polkadot",
         "isTestnet": false,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/portaldot.png",
+        "ordinal": 1,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/polkadot_63b5dd41ef.png",
         "providers": {
-            "Mainnet": "wss://mainnet.portaldot.io"
+            "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
+            "Stakeworld": "wss://dot-rpc.stakeworld.io",
+            "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
+            "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
+            "Light Client": "light://substrate-connect/polkadot",
+            "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+            "Allnodes": "wss://polkadot-rpc.publicnode.com",
+            "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
+            "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
+            "IBP2": "wss://polkadot.dotters.network"
         },
         "evmInfo": null,
         "substrateInfo": {
             "relaySlug": null,
             "paraId": null,
-            "genesisHash": "0x83b5212c69f85f3996f8696bb35bf913af51b176a5f53d0a74fd3a83dc0b8a54",
-            "addressPrefix": 42,
+            "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+            "addressPrefix": 0,
             "chainType": "RELAYCHAIN",
             "crowdloanUrl": null,
-            "blockExplorer": "https://portalscan.portaldot.io/",
-            "existentialDeposit": "100000000000000",
-            "symbol": "POT",
-            "decimals": 14,
+            "blockExplorer": "https://polkadot.subscan.io/",
+            "existentialDeposit": "10000000000",
+            "symbol": "DOT",
+            "decimals": 10,
             "hasNativeNft": false,
             "supportStaking": true,
             "supportSmartContract": null,
             "crowdloanParaId": null,
+            "supportProxy": true,
+            "supportMultisig": null,
             "crowdloanFunds": []
         },
         "extraInfo": {
-            "subscanSlug": "portaldot",
-            "chainBalanceSlug": "portaldot"
+            "subscanSlug": "polkadot",
+            "chainBalanceSlug": "polkadot"
         },
         "bitcoinInfo": null,
         "tonInfo": null,
         "cardanoInfo": null
     },
-    "binance": {
+    {
         "slug": "binance",
         "name": "BNB Chain",
         "isTestnet": false,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance.png",
+        "ordinal": 2,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/bnb_chain_002b604f9d.png",
         "providers": {
             "Binance": "https://bsc-dataseed.binance.org/",
             "Defibit": "https://bsc-dataseed1.defibit.io/",
@@ -67,12 +80,13 @@
         "tonInfo": null,
         "cardanoInfo": null
     },
-    "binance_test": {
+    {
         "slug": "binance_test",
-        "name": "Binance Smart Chain(Testnet)",
+        "name": "Binance Smart Chain (Testnet)",
         "isTestnet": true,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance_test.png",
+        "ordinal": 38,
+        "icon": "https://static-data.subwallet.app/chains/images/icon/bnb_d6b4677e85.png",
         "providers": {
             "Binance": "https://data-seed-prebsc-1-s1.binance.org:8545/",
             "Binance2": "https://data-seed-prebsc-2-s1.binance.org:8545/"
@@ -95,4 +109,4 @@
         "tonInfo": null,
         "cardanoInfo": null
     }
-}
+]
