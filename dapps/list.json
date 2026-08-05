@@ -4,14 +4,34 @@
     "title": "Portaldot Node Explorer",
     "description": "Portaldot Node Explorer",
     "url": "https://www.portaldot.io",
-    "subtitle": "Tool collection for interacting with the Portaldot Network",
+    "subtitle": "Portaldot Node Explorer",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": true,
-    "ordinal": 250,
+    "ordinal": 1,
     "desktop_mode": null,
-    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/assets/portaldot-native-pot.png",
-    "preview_image": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapp-example.png",
+    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-icon/icon-1.png",
+    "preview_image": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-image/image-1.png",
+    "chains": [
+      "portaldot"
+    ],
+    "categories": [
+      "tooling"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Portaldot Blockchain Explorer",
+    "description": "Portaldot Blockchain Explorer",
+    "url": "https://portalscan.portaldot.io",
+    "subtitle": "Portaldot Node Explorer",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": true,
+    "ordinal": 2,
+    "desktop_mode": null,
+    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-icon/id-2.png",
+    "preview_image": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-image/image-2.png",
     "chains": [
       "portaldot"
     ],
