@@ -27,7 +27,7 @@
             "crowdloanFunds": []
         },
         "extraInfo": {
-            "subscanSlug": null,
+            "subscanSlug": "portaldot",
             "chainBalanceSlug": "portaldot"
         },
         "bitcoinInfo": null,
