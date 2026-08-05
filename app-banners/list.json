@@ -15,7 +15,6 @@
             "start_time": "2024-07-22T17:00:00.000Z",
             "stop_time": "2029-08-14T17:00:00.000Z",
             "platforms": [
-                "extension",
                 "mobile"
             ],
             "os": null,
@@ -31,7 +30,7 @@
         "position_params": [
             {
                 "property": "tokenSlug",
-                "value": "portaldot-NATIVE-Unit"
+                "value": "portaldot-NATIVE-POT"
             }
         ],
         "conditions": {
@@ -39,7 +38,7 @@
                 {
                     "comparison": "gt",
                     "value": 0,
-                    "chain_asset": "portaldot-NATIVE-Unit"
+                    "chain_asset": "portaldot-NATIVE-POT"
                 }
             ]
         },
@@ -76,7 +75,7 @@
         "position_params": [
             {
                 "property": "tokenSlug",
-                "value": "portaldot-NATIVE-Unit"
+                "value": "portaldot-NATIVE-POT"
             }
         ],
         "conditions": {},
