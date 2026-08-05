@@ -7,7 +7,7 @@
     "subtitle": "Tool collection for interacting with the Portaldot Network",
     "is_substrate": null,
     "is_evm": null,
-    "is_featured": null,
+    "is_featured": true,
     "ordinal": 250,
     "desktop_mode": null,
     "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/assets/portaldot-native-pot.png",
