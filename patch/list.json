@@ -28,7 +28,7 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": "https://cdn.githubraw.com/fsnick169/wallet-info/main/patch/patch-assets-icon/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    "binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56": "https://cdn.githubraw.com/fsnick169/wallet-info/main/patch/patch-assets-icon/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
   },
   "ChainLogoMap": {},
   "mAssetLogoMap": {}
