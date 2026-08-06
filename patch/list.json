@@ -1,34 +1,34 @@
 {
-  "patchVersion": "0.2.119-beta.1",
-  "appliedVersion": "0.2.118",
+  "patchVersion": "0.0.1",
+  "appliedVersion": "0.0.0",
   "timestamp": 1760950975201,
   "ChainInfo": {},
   "ChainInfoHashMap": {},
   "ChainAsset": {
-    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
+    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
     "originChain": "binance",
-    "slug": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
-    "name": "Binance USD",
-    "symbol": "BUSD",
+    "slug": "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955",
+    "name": "Binance-Peg BSC-USD",
+    "symbol": "USDT",
     "decimals": 18,
-    "priceId": "binance-usd",
+    "priceId": null,
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
-      "contractAddress": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+      "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/patch/patch-assets-icon/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
   }
   },
   "ChainAssetHashMap": {
-    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": "5fa5067829fbc087b301bddbdefbcca3"
+    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": "5fa5067829fbc087b301bddbdefbcca3"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56": "https://cdn.githubraw.com/fsnick169/wallet-info/main/patch/patch-assets-icon/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    "binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
   },
   "ChainLogoMap": {},
   "mAssetLogoMap": {}
