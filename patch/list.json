@@ -1,0 +1,35 @@
+{
+  "patchVersion": "0.2.119-beta.1",
+  "appliedVersion": "0.2.118",
+  "timestamp": 1760950975201,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "priceId": "binance-usd",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+  }
+  },
+  "ChainAssetHashMap": {
+    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": "c5e5d825f50147c8bc6bacedf113333b"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
